@@ -52,20 +52,25 @@ h2{
     transition: color .4s ease-in-out, background-color .4s ease-in-out; 
 }
 .navbar {
-    transition: color 1s ease-in-out; /* Smooth transition for text color */
+    transition: color 1s ease-in-out; 
+}
+.card {
+    transition: color 1s ease-in-out;
 }
 
-/* Override the navbar text color when fondo_invert is active */
 .fondo_invert .navbar-nav .nav-link {
-    color: white !important; /* Force navbar text to be white */
+    color: white !important; 
 }
 
 .fondo_invert .navbar-brand {
-    color: white !important; /* Force the brand text to be white */
+    color: white !important;
+}
+.fondo_invert .card {
+    color: white !important; 
 }
 
 .fondo_invert .navbar-toggler-icon {
-    background-color: white !important; /* Change the hamburger menu icon to white */
+    background-color: white !important; 
 }
 input[type="radio"] {
     display: none;
